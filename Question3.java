@@ -7,7 +7,7 @@ public class Question3 {
         System.out.println(); /**Ask user for input */
 
         int integer = in.nextInt();
-        double total = integer * integer;
+        int total = integer * integer;
         System.out.println(total); /**Print total */
     }
 }
