@@ -1,15 +1,13 @@
 import java.util.Scanner;
 
-public class Question3
-{
-  public static void main(String[] args)
-  {
-    Scanner in = new Scanner();
+public class Question3 {
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
 
-    System.out.printIn(); /**Ask user for input */
+        System.out.println(); /**Ask user for input */
 
-    int integer = in.nextInt();
-    double total = integer * integer;
-    System.out.printIn(total); /**Print total */
-  }
+        int integer = in.nextInt();
+        double total = integer * integer;
+        System.out.println(total); /**Print total */
+    }
 }
